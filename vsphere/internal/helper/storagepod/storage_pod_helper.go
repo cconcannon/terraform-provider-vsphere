@@ -6,7 +6,7 @@ package storagepod
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"time"
 
 	"github.com/hashicorp/terraform-provider-vsphere/vsphere/internal/helper/datastore"

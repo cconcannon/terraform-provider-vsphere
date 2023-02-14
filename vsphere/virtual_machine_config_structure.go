@@ -5,7 +5,7 @@ package vsphere
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"reflect"
 
 	"github.com/mitchellh/copystructure"

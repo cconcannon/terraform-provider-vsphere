@@ -7,7 +7,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/vmware/govmomi/object"
 	"github.com/vmware/govmomi/vim25"
