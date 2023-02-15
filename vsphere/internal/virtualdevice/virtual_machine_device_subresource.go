@@ -6,7 +6,7 @@ package virtualdevice
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"math"
 	"reflect"
 	"strconv"
